@@ -1,0 +1,27 @@
+
+#include <stdio.h>中
+#include <CONIO.H>
+int main（） 
+{ 
+
+int i，j，n，m = 0; 
+
+printf（“輸入n，求1~n內的質數：”）; 
+的scanf（“％d”，＆N）; 
+
+for（i = 2; i <= n; i ++） 
+{ 
+m = 0; 
+
+for（j = 1; j <= n; j ++） 
+{ 
+if（（i％j）== 0）m ++; 
+if（m> 2）break; 
+} 
+if（m <= 2）printf（“％d \ t是質數！\ n”，i）; 
+
+} 
+的getch（）; 
+返回0; 
+
+}
